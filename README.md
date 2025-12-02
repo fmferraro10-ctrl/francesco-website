@@ -13,7 +13,6 @@
             color: #ffffff;
         }
 
-        /* NAV BAR */
         nav {
             background: #1a1a1a;
             padding: 15px 20px;
@@ -49,22 +48,17 @@
         }
 
         header img {
-            width: 200px;
-            height: 200px;
+            width: 180px;
+            height: 180px;
             border-radius: 50%;
             border: 4px solid #ff3333;
             object-fit: cover;
             margin-bottom: 20px;
         }
 
-        header h1 {
-            color: #ff3333;
-            margin-bottom: 10px;
-        }
-
         .container {
             width: 90%;
-            max-width: 900px;
+            max-width: 950px;
             margin: 30px auto;
             background: #1a1a1a;
             padding: 35px;
@@ -94,6 +88,41 @@
             color: #ffffff;
         }
 
+        /* Images in sections */
+        .section-img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            margin: 15px 0;
+            border: 3px solid #ff3333;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            border-radius: 8px;
+            border: none;
+            background: #333;
+            color: #fff;
+            font-size: 15px;
+        }
+
+        form button {
+            margin-top: 15px;
+            padding: 12px 15px;
+            background: #ff3333;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background: #cc0000;
+        }
+
         .footer {
             text-align: center;
             padding: 25px;
@@ -113,16 +142,19 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#achievements">Achievements</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#socials">Socials</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
     <!-- HEADER / HOME -->
     <header id="home">
-        <img src="profile.jpg" alt="Francesco Ferraro" />
+        <!-- Your real profile picture -->
+        <img src="IMG_5965.jpeg" alt="Francesco Ferraro" />
         <h1>Francesco Ferraro</h1>
-        <p>York University Student • Aspiring Teacher • Creative Builder</p>
+        <p>York University Student • Aspiring Teacher • 2nd Degree Black Belt</p>
     </header>
 
     <div class="container">
@@ -131,50 +163,71 @@
         <section id="about">
             <h2>About Me</h2>
             <p>
-                Hi! My name is <strong>Francesco Ferraro</strong>, and I'm a student at York University.  
-                I’m passionate about education, creativity, and building meaningful connections with others.
+                Hi! My name is <strong>Francesco Ferraro</strong>, and I'm a current student at
+                <strong>York University</strong>. I’m passionate about becoming a future teacher and creating a positive,
+                supportive learning environment for students. Education inspires me, and my goal is to guide future students
+                the same way my own teachers motivated me.
             </p>
         </section>
 
         <!-- HOBBIES -->
         <section id="hobbies">
-            <h2>Hobbies & Interests</h2>
+            <h2>Hobbies & Skills</h2>
             <ul>
                 <li><strong>Soccer</strong> — my favorite sport to play and watch.</li>
-                <li><strong>Karate</strong> — 2nd degree black belt.</li>
-                <li><strong>Video Games</strong> — a great way to relax.</li>
-                <li><strong>Streaming</strong> — I enjoy interacting with viewers while gaming.</li>
+                <li><strong>Video Games</strong> — a fun way to relax and connect.</li>
+                <li><strong>Karate</strong> — I am a <strong>2nd degree black belt</strong>, achieved through years of dedication.</li>
+                <li><strong>Streaming</strong> — I enjoy gaming and interacting with viewers.</li>
             </ul>
+        </section>
+
+        <!-- ACHIEVEMENTS -->
+        <section id="achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li><strong>Co-op Placement at an Elementary School (Grades 11 & 12)</strong>  
+                    - Assisted teachers, worked with students, and gained real classroom experience.
+                </li>
+                <li>2nd Degree Black Belt in Karate — discipline, leadership, and commitment.</li>
+            </ul>
+
+            <!-- Your karate belt image placed here -->
+            <img src="IMG_6062.jpeg" class="section-img" alt="Francesco's Karate Belt">
         </section>
 
         <!-- PROJECTS -->
         <section id="projects">
             <h2>Projects</h2>
             <p>
-                One of the creative things I enjoy doing is making unique designs and structures using 
-                <strong>old Monster cans</strong>.  
-                Instead of throwing them out, I turn them into cool miniature models, shapes, and display pieces.  
+                One of my creative hobbies is making fun shapes or designs using old cans.  
+                I enjoy turning something simple like empty Monster cans into unique little creations.
             </p>
-            <p>
-                It started as something fun I tried once, but over time I realized how much I enjoy 
-                taking something ordinary and transforming it into something artistic.  
-                Every build is differentsometimes I stack the cans, sometimes I cut and reshape them,
-                and other times I try to make objects like figures or logos out of the materials.
-            </p>
-            <p>
-                It’s become a fun hobby that mixes creativity, recycling, and problem-solving.  
-                I’m always experimenting with new ideas and ways to improve my designs.
-            </p>
+
+            <!-- Monster can structure image -->
+            <img src="IMG_6170.jpg" class="section-img" alt="Monster Can Project">
         </section>
 
         <!-- SOCIALS -->
         <section id="socials">
-            <h2>Socials</h2>
+            <h2>Socials & Contact Info</h2>
             <ul>
-                <li><strong>Email:</strong> <a href="mailto:fmf2007@my.yorku.ca">fmf2007@my.yorku.ca</a></li>
+                <li><strong>Email (YorkU):</strong> <a href="mailto:fmf2007@my.yorku.ca">fmf2007@my.yorku.ca</a></li>
                 <li><strong>Instagram:</strong> <a href="https://instagram.com/fmferraro10" target="_blank">@fmferraro10</a></li>
                 <li><strong>Twitch:</strong> <a href="https://twitch.tv/XDFallenlegacy" target="_blank">XDFallenlegacy</a></li>
+                <li><strong>Online Username:</strong> Fmferraro10</li>
             </ul>
+        </section>
+
+        <!-- CONTACT FORM -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>You can send me a message below:</p>
+            <form>
+                <input type="text" placeholder="Your Name" required />
+                <input type="email" placeholder="Your Email" required />
+                <textarea rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
         </section>
 
     </div>
